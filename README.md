@@ -9,7 +9,7 @@ This application is a simple task management tool built with React. It allows us
 1.  **Clone the repository:**  (Assuming this is part of a git repository)
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Soham-0047/taskflow-beginner
     ```
 
 2.  **Install dependencies:**
