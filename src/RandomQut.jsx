@@ -8,7 +8,7 @@ const RandomQut = () => {
     try {
       const res = await fetch("https://api.api-ninjas.com/v1/quotes", {
         headers: {
-          "X-Api-Key": "1wiGXMcJdk1rEuzeJma3nQ==s9gmUNuZ7HKAQj47",
+          "X-Api-Key": import.meta.env.VITE_API_KEY,
         },
       });
       const data = await res.json();
